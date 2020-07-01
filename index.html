@@ -2,144 +2,159 @@
 <html>
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css" />
-    <title>bootcamp1</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <title>bootcamp1</title>
+  <!-- <div id="menuToggle">
+                        <input type="checkbox" />
+                        <span id="span1"></span>
+                        <span id="span2"></span>
+                        <span id="span3"></span>
+                    </div> -->
 </head>
 
 <body>
-    <div class="header_wrapper">
+  <div class="header_wrapper">
     <header class="header container">
-        <nav class="header_nav">
-            <a class="logo" href="#">Мебель<span>РЕМСЕРВИС</span></a>
-            <ul class="menu">
-                <li><a href = "#">+38 068 604 46 26</a></li>
-                <li><a href = "#">+38 068 954 06 99</a></li>
-            </ul>
-        </nav>
-    </header>
-    </div>
+      <nav class="header_nav">
+        <a class="logo" href="#">LORAN</a>
 
-    <main class="container">
-        <section class="s1">
-        <h2 class="s1_title">Ремонт мебели</h2>
-        <ul class="s1_list">
-            <li class="s1_list-item">Изготовление мебели под заказ</li>
-            <li class="s1_list-item"><span>Гарантийный сервис </span> для органазаций</li>
-            <li class="s1_list-item">Использование <span> натуральных </span> материалов</li>
+        <!-- элемент, срабатывающий на нажатие мышкой -->
+        <input class="menu-btn" type="checkbox" id="menu-btn">
+
+        <!-- сам гамбургер -->
+        <label class="menu-icon" for="menu-btn"><span class="navicon"> </span></label>
+
+        <ul class="menu">
+          <li><a href="#">+38 068 604 46 26</a></li>
+          <li><a href="#">+38 068 954 06 99</a></li>
         </ul>
-        <div class="s1_bottom-arrow">&gt;</div>
-        </section>
+      </nav>
+    </header>
+  </div>
 
-        <section class="s2">
-            <h2 class="s2_title">Ремонт и реставация мягкой мебели</h2>
-<ul clas="s2_list">
-    <li class="s2_list-item">
-        <p>Перетяжка</p>
-        <p>Механизмы</p>
-        <p>Каркасы</p>
+  <main class="container">
+    <section class="s1">
+      <h2 class="s1_title">Салон красоты<span> LORAN</span></h2>
+      <ul class="s1_list">
+        <li class="s1_list-item"><span>Индивидуальный</span> подход</li>
+        <li class="s1_list-item"><span>Лучшие </span> специалисты</li>
+        <li class="s1_list-item">Использование <span> самых качественных </span> материалов</li>
+      </ul>
+      <div class="s1_bottom-arrow">&gt;</div>
+    </section>
 
-    </li>
-    <li class="s2_list-item">
-        <p>Фасон</p>
-        <p>Дизайн</p>
-    </li>
-    <li class="s2_list-item">
-        <p>Элементы</p>
-        <p>Блоки</p>
-    </li>
-    <li class="s2_list-item">
-        <p>Замена наполнителя</p>
+    <section class="s2">
+      <h2 class="s2_title">Наши услуги:</h2>
+      <ul clas="s2_list">
+        <li class="s2_list-item">
+          <p>Уход и восстановление волос</p>
+          <p>Стрижки, укладки</p>
+          <p>Колористика</p>
 
-    </li>
-</ul>
-        </section> 
+        </li>
+        <li class="s2_list-item">
+          <p>Маникюр</p>
+          <p>Педикюр</p>
+        </li>
+        <li class="s2_list-item">
+          <p>Наращивание ресниц</p>
+          <p>Бровистика</p>
+        </li>
+        <li class="s2_list-item">
+          <p>Визаж</p>
 
-<section class="s3 ant-carousel">
-    <div class="ant-carousel-hider">
-      <ul class="ant-carousel-list">
-        <li class="ant-carousel-element">
-          <img src="/images/sofa.jpg" alt="1" />
-          <p>Description</p>
-        </li>
-        <li class="ant-carousel-element">
-          <img src="/images/cupboard.jpg" alt="1" />
-          <p>Description</p>
-        </li>
-        <li class="ant-carousel-element">
-          <img src="/images/tv.jpg" alt="1" />
-          <p>Description</p>
-        </li>
-        <li class="ant-carousel-element">
-          <img src="/images/sofa1.jpg" alt="1" />
-          <p>Description</p>
-        </li>
-        <li class="ant-carousel-element">
-          <img src="/images/table.jpg" alt="1" />
-          <p>Description</p>
-        </li>
-        <li class="ant-carousel-element">
-          <img src="/images/chair.jpg" alt="1" />
-          <p>Description</p>
         </li>
       </ul>
-    </div>
-    <div class="ant-carousel-dots"></div>
-  </section>
+    </section>
 
-        <section class="s4">
-            <p class="s4_title">Предлагаем индивидуальные решения! На любой вкус, размер, фасон и кошелек. </p>
-            <ul class="s4_list">
-                <li class="s4_list-item">- Интерьерные решения</li>
-                <li class="s4_list-item">- Сборка и разборка</li>
-                <li class="s4_list-item">- Обслуживание мебели</li>
-                <li class="s4_list-item">- Ремонт и обслуживание</li>
-                <li class="s4_list-item">- Перевозка, доставка</li>
-                <li class="s4_list-item">- Ремонт спортивентаря</li>
-            </ul>
-        </section>
+    <section class="s3 ant-carousel">
+      <div class="ant-carousel-hider">
+        <div class="ant-carousel-arrow-left"></div>
+        <ul class="ant-carousel-list">
+          <li class="ant-carousel-element">
+            <img src="/images/project2/photo1.jpg" alt="1" />
+            <p>Description</p>
+          </li>
+          <li class="ant-carousel-element">
+            <img src="/images/project2/photo2.jpg" alt="1" />
+            <p>Description</p>
+          </li>
+          <li class="ant-carousel-element">
+            <img src="/images/project2/photo3.jpg" alt="1" />
+            <p>Description</p>
+          </li>
+          <li class="ant-carousel-element">
+            <img src="/images/project2/photo4.jpg" alt="1" />
+            <p>Description</p>
+          </li>
+          <li class="ant-carousel-element">
+            <img src="/images/project2/photo5.jpg" alt="1" />
+            <p>Description</p>
+          </li>
+          <li class="ant-carousel-element">
+            <img src="/images/project2/photo6.jpg" alt="1" />
+            <p>Description</p>
+          </li>
+        </ul>
+        <div class="ant-carousel-arrow-right"></div>
+      </div>
+      <div class="ant-carousel-dots"></div>
+    </section>
 
-        <section class="s5">
-            <ul class="s5_list">
-              <li class="s5_list-item">Ремонт корпусной и офисной мебели</li>
-              <li class="s5_list-item">Ремонт двуспальных кроватей и матрасов</li>
-              <li class="s5_list-item">Ремонт и реставрация деревянной мебели</li>
-              <li class="s5_list-item">Ремонт кухонной мебели</li>
-            </ul>
-            <h3 class="s5_title">ремонт мебели спецназначения</h3>
-            <ul class="s5_list">
-              <li class="s5_list-item">Парикмахерские</li>
-              <li class="s5_list-item">Салоны красоты</li>
-              <li class="s5_list-item">Торговое оборудование</li>
-              <li class="s5_list-item">Мед. учреждения</li>
-            </ul>
-            <h3 class="s5_title">ремонт уличной мебели</h3>
-            <ul class="s5_list">
-              <li class="s5_list-item">Мебель для терасс</li>
-              <li class="s5_list-item">Дачная мебель</li>
-              <li class="s5_list-item">Зона отдыха</li>
-            </ul>
-            <h3 class="s5_title">контакты</h3>
-            <ul class="s5_list">
-              <li class="s5_list-contact">
-                <a href="#">+38 068 604 46 26</a>
-                <p>(Валерий)</p>
-              </li>
-              <li class="s5_list-contact">
-                <a href="#">+38 068 954 06 99</a>
-                <p>(Елена)</p>
-              </li>
-            </ul>
-          </section>
+    <section class="s4">
+      <p class="s4_title">Добро пожаловать в мир совершенства!</p>
+      <ul class="s4_list">
+        <li class="s4_list-item">- Уютный интерьер</li>
+        <li class="s4_list-item">- Приветливые мастера</li>
+        <li class="s4_list-item">- Приятные цены</li>
+      </ul>
+    </section>
 
-    </main>
+    <section class="s5">
+      <ul class="s5_list">
+        <li class="s5_list-item">Ламинирование ресниц и бровей</li>
+        <li class="s5_list-item">Маникюр и педикюр</li>
+        <li class="s5_list-item">Макияж, котрый подчеркнет Вашу красоту</li>
+        <li class="s5_list-item">Процедуры для волос</li>
+      </ul>
+      <h3 class="s5_title">Ваши волосы будут благодарны!</h3>
+      <ul class="s5_list">
+        <li class="s5_list-item">Восстанавливающий уход</li>
+        <li class="s5_list-item">Окрашивание любой сложности</li>
+        <li class="s5_list-item">Наращивание волос</li>
+        <li class="s5_list-item">Стрижки и укладки</li>
+      </ul>
+      <h3 class="s5_title">Подготовим Вас к любому мероприятию</h3>
+      <ul class="s5_list">
+        <li class="s5_list-item">Макияж</li>
+        <li class="s5_list-item">Стрижка и укладка</li>
+        <li class="s5_list-item">Маникюр и педикюр</li>
+      </ul>
+      <h3 class="s5_title">контакты</h3>
+      <ul class="s5_list">
+        <li class="s5_list-contact">
+          <a href="#">+38 068 604 46 26</a>
+          <p>(Валерий)</p>
+        </li>
+        <li class="s5_list-contact">
+          <a href="#">+38 068 954 06 99</a>
+          <p>(Елена)</p>
+        </li>
+      </ul>
+    </section>
 
-    <div class="footer-wrapper">
+  </main>
+
+  <div class="footer-wrapper">
     <footer class="container">
-        <p>&copy; 2020 | Копирование материалов запрещено</p>
+      <p>&copy; 2020 | Копирование материалов запрещено</p>
     </footer>
-    </div>
+  </div>
+  <!-- <script src="/js/classwork.js"></script> -->
+  <script src="js/slider.js"></script>
+ 
 </body>
 
 </html>
