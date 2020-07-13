@@ -72,7 +72,7 @@ a {
 .logo::before {
   content: "";
   position: absolute;
-  background: url(/images/project2/icons/icon_logo.jpg);
+  background: url(./images/project2/icons/icon_logo.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-color: white;
@@ -100,7 +100,7 @@ a {
 .menu li:last-child::before {
   position: absolute;
   content: "";
-  background: url(/images/project1/icons/viber.png);
+  background: url(./images/project1/icons/viber.png);
   background-position: center;
   background-repeat: no-repeat;
   width: 22px;
@@ -194,7 +194,7 @@ a {
 .s1 {
   padding: 225px 20px 0;
   padding-left: 20px;
-  background: #535353 url(/images/project2/loran_background.jpg);
+  background: #535353 url(./images/project2/loran_background.jpg);
   background-size: cover;
   background-blend-mode: soft-light;
   display: flex;
@@ -226,7 +226,7 @@ a {
   content: "";
   width: 14px;
   height: 14px;
-  background: url(/images/project2/icons/icon-heart.png);
+  background: url(./images/project2/icons/icon-heart.png);
   background-position: center;
   background-repeat: no-repeat;
   left: 0;
@@ -572,7 +572,7 @@ span.ant-dot {
   content: "";
   width: 32px;
   height: 32px;
-  background: url(/images/project2/icons/icon-heart.png);
+  background: url(./images/project2/icons/icon-heart.png);
   background-position: center;
   background-repeat: no-repeat;
   top: -3px;
@@ -589,7 +589,7 @@ span.ant-dot {
   content: "";
   width: 22px;
   height: 22px;
-  background: url(/images/project1/icons/viber.png);
+  background: url(./images/project1/icons/viber.png);
   background-position: center;
   background-repeat: no-repeat;
   top: 4px;
