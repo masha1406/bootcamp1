@@ -270,7 +270,7 @@ a {
 .s2_list-item{
   width: 170px;
   height: 190px;
-  border:6px double pink;
+  border:6px double rgba(255, 192, 203, 0.561);
   margin-bottom: 60px;
   position: relative;
 }
@@ -280,14 +280,14 @@ a {
   position: relative;
   width: 86px;
   height:86px;
-  background-color: pink;
+  background-color: rgba(255, 192, 203, 0.616);
   border-radius: 50%;
   top: -29%;
   left: 23%;
 }
 
 .s2_list-item:nth-child(1)::before{
-  background: pink url();
+  background: rgba(255, 192, 203, 0.575) url();
   background-position: center;
   background-repeat: no-repeat;
  }
@@ -311,7 +311,7 @@ a {
 }
 
 .s2_list-item:hover{
- background-color: pink;
+ background-color: rgba(255, 192, 203, 0.349);
  width: 200px;
  height: 200px;
 }
