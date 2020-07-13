@@ -192,7 +192,7 @@ a {
 
 /* СЕКЦИЯ 1 */
 .s1 {
-  padding-top: 225px 20px 0;
+  padding: 225px 20px 0;
   padding-left: 20px;
   background: #535353 url(/images/project2/loran_background.jpg);
   background-size: cover;
@@ -310,11 +310,10 @@ a {
   background-repeat: no-repeat;
 }
 
-.s2_list-item: :hover{
+.s2_list-item:hover{
  background-color: pink;
  width: 200px;
  height: 200px;
-
 }
 
 .s2_list-item p{
@@ -335,9 +334,10 @@ a {
   display: flex;
   flex-flow: row;
   justify-content: center;
-  background: #535353;
+  background:pink;
   width: auto;
   padding: 100px 0;
+  position: relative;
 }
 
 .ant-carousel-hider {
@@ -346,6 +346,8 @@ a {
   justify-content: flex-start;
   width: 320px;
   overflow: hidden;
+  margin: 0 20px;
+  position: relative;
 }
 
 .ant-carousel-list {
@@ -356,7 +358,7 @@ a {
 }
 
 .ant-carousel-element {
-  margin: 20px;
+  margin-right: 20px;
 }
 
 .ant-carousel-element img {
@@ -383,6 +385,71 @@ a {
   left: 0;
 }
 
+
+div.ant-carousel-arrow-left,
+div.ant-carousel-arrow-right {
+    width: 24px;
+    height: 40px;
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 101;
+    top: 44%;
+    top: 38%;
+    padding: 15px;
+}
+
+div.ant-carousel-arrow-left:hover,
+div.ant-carousel-arrow-right:hover {
+    opacity: 1;
+}
+
+/* левая стрелка слайдера */
+div.ant-carousel-arrow-left {
+    left: -2px;
+    left: 0px;
+    display: block;
+    background: url("http://pvbk.spb.ru/inc/carousel/ant-files/ant-arrow-left.png") no-repeat;
+    background: #53535383 url("http://pvbk.spb.ru/inc/carousel/ant-files/ant-arrow-left.png") no-repeat;
+    background-position: center;
+}
+
+/* правая стрелка слайдера */
+div.ant-carousel-arrow-right {
+    right: -4px;
+    right: 0px;
+    display: block;
+    background: url("http://pvbk.spb.ru/inc/carousel/ant-files/ant-arrow-right.png") no-repeat;
+    background: #53535383 url("http://pvbk.spb.ru/inc/carousel/ant-files/ant-arrow-right.png") no-repeat;
+    background-position: center;
+}
+/* ховер левой стрелки слайдера  */
+div.ant-carousel-arrow-left:hover,
+div.ant-carousel-arrow-right:hover {
+    opacity: 1;
+}
+/* контейнер с точками слайдера */
+div.ant-carousel-dots {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 64px;
+    bottom: 38px;
+    z-index: 30;
+    text-align: center;
+}
+/* точки слайдера */
+span.ant-dot {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    padding: 0;
+    display: inline-block;
+    background-color: #bbb;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 /* СЕКЦИЯ 4 */
 .s4 {
@@ -505,7 +572,7 @@ a {
   content: "";
   width: 32px;
   height: 32px;
-  background: url(/images/project2/icons/111.png);
+  background: url(/images/project2/icons/icon-heart.png);
   background-position: center;
   background-repeat: no-repeat;
   top: -3px;
@@ -622,6 +689,7 @@ font-size: 50px;
 /* SECTION 3 */
 .ant-carousel-hider {
   width: 768px;
+  margin: 0 40px;
 }
 
 .ant-carousel-element img {
