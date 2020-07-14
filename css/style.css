@@ -72,7 +72,7 @@ a {
 .logo::before {
   content: "";
   position: absolute;
-  background: url(./images/project2/icons/icon_logo.jpg);
+  background: url(/images/project2/icons/icon_logo.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-color: white;
